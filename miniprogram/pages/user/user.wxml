@@ -1,0 +1,26 @@
+<!--pages/userpro/userpro.wxml-->
+<view class="container">
+ <!-- 用户 openid -->
+  <view class="userinfo">
+    <button 
+      open-type="getUserInfo" 
+      bindgetuserinfo="onGetUserInfo"
+      class="userinfo-avatar"
+      style="background-image: url({{avatarUrl}})"
+    ></button>
+    <view>
+      <button class="userinfo-nickname" bindtap="onGetOpenid">我的账户</button>
+    </view>
+  </view>
+  <!-- 我的题目 -->
+  <view class="uploader">
+    <navigator url="../userpro/userpro" open-type="navigate" class="uploader-text">
+      <text>我的题目</text>
+    </navigator>
+  </view>
+  <view class="uploader">
+    <navigator url="../list/list" open-type="navigate" class="uploader-text">
+      <text>我的消息</text>
+    </navigator>
+  </view>
+</view>

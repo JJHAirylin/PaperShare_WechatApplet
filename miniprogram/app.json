@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/postlist/postlist",
+    "pages/logs/logs",
+    "pages/publish/publish",
+    "pages/postdetail/postdetail",
+    "pages/authorize/authorize",
+    "pages/user/user",
+    "pages/comment/comment",
+    "pages/chatroom/chatroom",
+    "pages/userpro/userpro",
+    "pages/list/list"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3F58FD",
+    "navigationBarTitleText": "Paper Share",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#35495e",
+    "borderStyle": "white",
+    "backgroundColor": "#f9f9f9",
+    "list": [
+      {
+        "pagePath": "pages/postlist/postlist",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-activated.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "images/profile.png",
+        "selectedIconPath": "images/profile-activated.png"
+      }
+    ]
+  },
+  "cloud": true,
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,15 @@
+<view class='page'>
+    <input class='text' bindinput="input" placeholder="发布题目，不少于{{minContentLength}}字" maxlength='{{maxContentLength}}' show-confirm-bar='false' auto-height/>
+    <view class="image_content">
+        <view class='image' wx:for="{{img_url}}" wx:key="*this">
+            <image class="moment_img" src="{{item}}"></image>
+        </view>
+        <view class='image' style='display:{{hideAdd?"none":"block"}}'>
+            <image bindtap="chooseimage" class="moment_img" src='../../images/add.png'></image>
+        </view>
+    </view>
+
+    <input class='text2' bindinput="typeinput" placeholder="输入试卷补充标签，如 2017，期中" maxlength='{{maxContentLength}}' show-confirm-bar='false' auto-height/>
+
+    <button bindtap="send">发布</button>
+</view>
