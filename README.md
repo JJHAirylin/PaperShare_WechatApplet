@@ -21,5 +21,5 @@ A test paper sharing widget program, including the basic test paper with picture
 
 ### 预览
 
-![]()
+![登录页面](PaperShare_WechatApplet/DemoImage/组合 1.jpg)
 
