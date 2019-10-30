@@ -21,5 +21,8 @@ A test paper sharing widget program, including the basic test paper with picture
 
 ### 预览
 
-![登录页面](https://github.com/JJHAirylin/PaperShare_WechatApplet/blob/master/DemoImage/%E7%BB%84%E5%90%88%201.jpg)
-
+![登录页面](https://github.com/JJHAirylin/PaperShare_WechatApplet/blob/master/DemoImage/1.jpg)
+![发布问题](https://github.com/JJHAirylin/PaperShare_WechatApplet/blob/master/DemoImage/2.jpg)
+![主页](https://github.com/JJHAirylin/PaperShare_WechatApplet/blob/master/DemoImage/3.jpg)
+![详情页](https://github.com/JJHAirylin/PaperShare_WechatApplet/blob/master/DemoImage/4.jpg)
+![聊天室](https://github.com/JJHAirylin/PaperShare_WechatApplet/blob/master/DemoImage/5.jpg)
